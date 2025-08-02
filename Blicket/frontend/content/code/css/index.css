@@ -39,3 +39,11 @@ body {
     z-index: -1;
     filter: drop-shadow(0.000vw 0.000vw 0.521vw #1f1f1f);
 }
+.login-registerButtons {
+    position: absolute;
+    top: 3vh;
+    right: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

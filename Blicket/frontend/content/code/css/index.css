@@ -1,3 +1,41 @@
+/*So basically im going to borrow blacket's general structure and then go change it later*/
 body {
-  font-family: 'Nunito';
+    font-family: Nunito, sans-serif;
+}
+.mainBody {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0
+}
+.frame {
+    width: 95%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.contentContainer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.blooksFrontImage {
+    height: 100vh;
+    width: 52.5%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    -o-object-fit: contain;
+    object-fit: contain;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    z-index: -1;
+    filter: drop-shadow(0.000vw 0.000vw 0.521vw #1f1f1f);
 }
